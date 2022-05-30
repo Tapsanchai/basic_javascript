@@ -42,7 +42,7 @@ console.log(other);
 
 let array_nums = [1, 2, 3];
 const NewValue_nums = [...array_nums, 4, 5, "good"];
-console.log(array_nums);
+console.log(array_nums, typeof(array_nums));
 console.log(NewValue_nums);
 console.log(NewValue_nums[5]);
 console.log("");
@@ -53,7 +53,7 @@ class create_studentList {
     this.st_id = st_id;
     this.st_name = st_name;
 
-    //sreturn console.log(st_id + ' - ' + st_name);
+    //sreturn console.log(st_id  ' - ' + st_name);
   }
 }
 const create_list = new create_studentList(10, "kuma");
